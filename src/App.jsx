@@ -1,3 +1,4 @@
+//MAKE SURE TO ADD THE IMPORTS FOR EACH IMAGE COMPONENT  
 import './App.css'
 import personalPicture from '/images/IMG_1646.png';
 import twitter from '/images/twitter.png';
