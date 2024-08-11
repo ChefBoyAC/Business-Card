@@ -5,7 +5,7 @@ export default function App() {
     <div className='background'>
 
       <div className='business_card'>
-            <img src=' /public/static/images/IMG_1646.png'></img>
+            <img src='/images/IMG_1646.png'></img>
             <h2> Aaron Channer </h2> 
             <h3> Machine Learning Engineer </h3> 
             <h6> aaronchanner.website </h6> 
