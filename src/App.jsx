@@ -1,11 +1,14 @@
 import './App.css'
+import image from '/images/IMG_1646.png';
+
+<img src={image} alt="description" />
 
 export default function App() {
   return(
     <div className='background'>
 
       <div className='business_card'>
-            <img src='/images/IMG_1646.png'></img>
+            <img src={image} alt='a person'></img>
             <h2> Aaron Channer </h2> 
             <h3> Machine Learning Engineer </h3> 
             <h6> aaronchanner.website </h6> 
