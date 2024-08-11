@@ -1,14 +1,18 @@
 import './App.css'
-import image from '/images/IMG_1646.png';
+import personalPicture from '/images/IMG_1646.png';
+import twitter from '/images/twitter.png';
+import facebook from '/images/facebook.png';
+import instagram from '/images/instagram (1).png';
+import github from '/images/github (1).png';
 
-<img src={image} alt="description" />
+<img src={personalPicture} alt="description"/>
 
 export default function App() {
   return(
     <div className='background'>
 
       <div className='business_card'>
-            <img src={image} alt='a person'></img>
+            <img src={personalPicture} alt='a person'></img>
             <h2> Aaron Channer </h2> 
             <h3> Machine Learning Engineer </h3> 
             <h6> aaronchanner.website </h6> 
@@ -41,19 +45,19 @@ export default function App() {
 
             <div className='logo'>
               <div> 
-                  <img src='./images/twitter.png'/> 
+                  <img src={twitter} alt='twitter image'/> 
               </div>
 
               <div> 
-                  <img src='./images/facebook.png' />
+                  <img src={facebook} alt='facebook image'/>
               </div>
 
               <div> 
-                  <img src='images/instagram (1).png'/>
+                  <img src={instagram} alt='instagram image'/>
               </div>
 
               <div> 
-                  <img src='images/github (1).png'/>
+                  <img src={github} alt='github image'/>
               </div> 
             </div> 
 
